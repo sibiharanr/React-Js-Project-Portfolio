@@ -1,0 +1,17 @@
+.DataBox
+{
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+}
+.fill
+{
+    height: 5px;
+    background-color:#FD2D00;
+}
+.nofill
+{
+    background-color: aliceblue;
+    height: 5px;
+}
