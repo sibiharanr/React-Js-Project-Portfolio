@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+*{
+    font-family:'Poppins', sans-serif;
+}
+html {
+    scroll-behavior:smooth;
+  }
+.Hoder
+{
+    top: 0;
+    position: sticky;
+}
+.Left
+{
+    height: 565px;
+    width: 25%;
+    background-color: #000;
+    overflow: hidden;
+    position: sticky;
+    overflow-y: scroll;
+    top: 30px;
+}
+.Right
+{
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    height: 530px;
+    width: 75%;
+    top: 30px;
+    background-color: #000;
+    overflow: hidden;
+    overflow-y: scroll;
+    position: sticky;
+}
+::-webkit-scrollbar
+{
+    width: 3px;
+}
+::-webkit-scrollbar-thumb
+{
+    background-color: skyblue;
+    border-radius: 10px;
+}
+.Container
+{
+    display: flex;
+}
